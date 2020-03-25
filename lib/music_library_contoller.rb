@@ -35,6 +35,8 @@ class MusicLibraryController
         play_song
       end
       call
+    elsif input == "exit"
+      puts "Goodbye"
     end
   end
 
