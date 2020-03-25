@@ -72,6 +72,7 @@ class MusicLibraryController
       array = Song.all.sort_by{|song| song.name}.uniq
       song = array[song_input - 1]
       puts "Playing #{song.name} by #{song.artist.name}"
+    end
   end
 
 end
